@@ -1,4 +1,5 @@
 const Intern = require("../lib/Intern");
+// import Intern from ("../lib/Intern");
 
 test("Set School via the constructor argument", () => {
     const testValue = "Baylor";

@@ -1,9 +1,31 @@
 {
+  "name": "uofu-module10-assignment",
+  "version": "1.0.0",
+  "description": "collecting empoloyee information to generate profiles using node.js command line prompts",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chigley22/UofU-Module10-Assignment.git"
+  },
+  "author": "chigley22",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chigley22/UofU-Module10-Assignment/issues"
+  },
+  "homepage": "https://github.com/chigley22/UofU-Module10-Assignment#readme",
   "dependencies": {
     "email-validator": "^2.0.4",
-    "inquirer": "^9.0.0"
+    "inquirer": "^9.0.0",
+    "joi": "^17.6.0",
+    "node": "^18.4.0"
   },
   "devDependencies": {
-    "jest": "^28.1.1"
+    "jest": "^28.1.2"
   }
 }

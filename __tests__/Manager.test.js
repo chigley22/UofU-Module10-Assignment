@@ -1,5 +1,7 @@
 const Manager = require("../lib/Manager");
+// import Manager from ("../lib/Manager");
 const Employee = require("../lib/Employee");
+// import Employee from ("../lib/Employee");
 
 test("Set Office Number via constructor argument", () => {
   const testValue = 61;
