@@ -13,7 +13,11 @@ Command-line application that takes information about employees on a software en
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-This application will require Jest for running tests and Inquirer for collecting input from users. The application will be invoked by using "node index.js"
+This application will require Jest for running tests and Inquirer for collecting input from users. The application will be invoked by using "node index.js"<br />
+npm init<br />
+npm install inquirer<br />
+npm install email-validator<br />
+npm install jest --save-dev<br />
 ## Usage
 ### User Story
 AS A manager <br />
