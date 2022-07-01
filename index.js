@@ -1,22 +1,13 @@
 const inquirer = require('inquirer');
-// import inquirer from ("inquirer");
 const fs = require("fs");
-// import fs from ("fs");
 const util = require("util");
-// import util from ("util");
 const Manager = require("./lib/Manager");
-// import Manager from ("./lib/Manager");
 const Engineer = require("./lib/Engineer");
-// import Engineer from ("./lib/Engineer");
 const Intern = require("./lib/Intern");
-// import Intern from ("./lib/Intern");
 const html = require("./src/htmlTemp");
-// import html from ("./src/htmlTemp");
 const validator = require("email-validator");
-// import validator from ("email-validator");
 
 const writeFileAsync = util.promisify(fs.writeFile);
-const appendFileAsync = util.promisify(fs.appendFile);
 
 let teamArray = [];
 let teamString = ``;
