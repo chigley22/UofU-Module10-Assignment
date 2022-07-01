@@ -3,7 +3,9 @@
 <h1 align="center">Module 10 Assignment- Team Profile Generator</h1>
   
 ## Description
-Command-line application that takes information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+Command-line application that takes information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.<br />
+Video link to tutorial: https://drive.google.com/file/d/1-ZGu1_V-fj4WWwqV094ebPLD353KrZRZ/view<br />
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
